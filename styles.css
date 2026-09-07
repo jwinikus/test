@@ -1,8 +1,8 @@
 :root {
-  --bg: #0b1020;
-  --bg-soft: #111a2f;
-  --panel: rgba(18, 27, 44, 0.72);
-  --panel-strong: #121d34;
+  --bg: #101b1a;
+  --bg-soft: #182826;
+  --panel: rgba(24, 40, 38, 0.72);
+  --panel-strong: #1a2d2a;
   --card: #f5f7fb;
   --text: #eaf0ff;
   --text-muted: #a8b4d2;
@@ -63,7 +63,7 @@ img {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(12px);
-  background: rgba(11, 16, 32, 0.45);
+  background: rgba(16, 27, 26, 0.45);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
