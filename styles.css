@@ -246,7 +246,7 @@ h2 {
   border-radius: 22px;
   background:
     linear-gradient(180deg, rgba(243, 166, 197, 0.18), rgba(36, 21, 34, 0.22)),
-    url("https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80") center/cover no-repeat;
+    url("profile.jpg") center/cover no-repeat;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
