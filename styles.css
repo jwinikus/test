@@ -388,6 +388,22 @@ h2 {
   font-weight: 700;
 }
 
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  color: var(--primary);
+  font-weight: 700;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.repo-link:hover,
+.repo-link:focus-visible {
+  opacity: 0.9;
+  transform: translateX(2px);
+}
+
 .project-visual {
   min-height: 260px;
   background-size: cover;
