@@ -309,6 +309,27 @@ h2 {
   align-items: start;
 }
 
+.cv-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 44px;
+  align-items: center;
+}
+
+.cv-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.cv-content p {
+  max-width: 620px;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
 .section-heading {
   max-width: 580px;
   margin-bottom: 42px;
@@ -481,6 +502,7 @@ h2 {
 
   .hero-grid,
   .about-grid,
+  .cv-grid,
   .project-card,
   .feature-project,
   .skills-grid,
